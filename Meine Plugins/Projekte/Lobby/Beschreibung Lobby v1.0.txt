@@ -1,0 +1,73 @@
+Name: Lobby
+Version: 1.0
+Author: Alex
+
+Installation:
+	1. Plugin in den plugin Ordner ziehen
+	2. Server starten
+	
+Anmerkung:
+	Wenn der Server reloaded wird kann es zu bugs kommen, da das Plugin wichtige informationen beim betreten des Servers bekommt.
+
+Kommt noch:
+	-/selectswordban <Ban-ID>
+	-/selectaxemute <Mute-ID>
+
+	
+Befehle:
+	-/adminitems <item>
+	-/adminitems clear
+	-/adminitems list
+	-/build
+	-/build <player>
+	-/check
+	-/check <player>
+	-/fly
+	-/fly <player>
+	-/gm <0|1|2|3>
+	-/gm <0|1|2|3> <player>
+	-/setgame <1-2>
+	-/setspawn
+	-/spec
+	-/spec <player>
+	-/tabreload
+
+
+Permissions:
+	-lobby.build.self
+	-lobby.build.other
+	-lobby.check.self
+	-lobby.check.other
+	-lobby.fly.self
+	-lobby.fly.other
+	-lobby.spec.self
+	-lobby.spec.other
+	-lobby.adminitems.bansword
+	-lobby.adminitems.muteaxe
+	-lobby.adminitems.clear
+	-lobby.adminitems.list
+	-lobby.gamemode.self
+	-lobby.gamemode.other
+	-lobby.setlocations
+	-lobby.team
+	-lobby.inventory.admin
+	-lobby.inventory.youtube
+	-lobby.tablist.owner
+	-lobby.tablist.superadmin
+	-lobby.tablist.admin
+	-lobby.tablist.developer
+	-lobby.tablist.supermoderator
+	-lobby.tablist.superarchitekt
+	-lobby.tablist.moderator
+	-lobby.tablist.architekt
+	-lobby.tablist.team
+	-lobby.tablist.supporter
+	-lobby.tablist.testdeveloper
+	-lobby.tablist.testsupporter
+	-lobby.tablist.streamer
+	-lobby.tablist.youtuber
+	-lobby.tablist.diamond
+	-lobby.tablist.platin
+	-lobby.tablist.vip
+	-lobby.tablist.reload
+	

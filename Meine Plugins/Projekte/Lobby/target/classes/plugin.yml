@@ -1,0 +1,35 @@
+name: Lobby
+main: at.alex.Lobby.main.Main
+version: 1.0
+
+commands:
+  setspawn:
+    description: Setzt den Spawnpunkt!
+  setgame:
+    description: Setzt einen Spawnpunkt eines Spieles!
+  build:
+    description: Setzt dich in den Build Modus!
+  fly:
+    description: Setzt dich in den Fly Modus!
+  spec:
+    description: Setzt dich in den Spec Modus!
+  gm:
+    description: Setzt dich in einen Gamemode!
+  check:
+    description: Setzt dich in den Check Modus!
+  adminitems:
+    description: Gibt dir ein beliebiges Admin-Item!
+  tabreload:
+    description: Reloaded die Tablist!
+  rank:
+    description: Aendert den Rang eines Spielers!
+  scorereload:
+    description: Reloaded das Scoreboard!
+  addcoins:
+    description: Fuegt einem Spieler Coins hinzu!
+  removecoins:
+    description: Entfernt einem Spieler Coins!
+  setcoins:
+    description: Setzt einem Spieler eine Anzahl an Coins!
+  coins:
+    description: Zeigt die Coins von dir oder anderen Spielern an!
