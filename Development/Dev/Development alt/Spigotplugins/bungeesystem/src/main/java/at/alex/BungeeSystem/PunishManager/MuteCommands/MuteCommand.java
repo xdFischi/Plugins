@@ -28,7 +28,9 @@ public class MuteCommand extends Command {
                         if (!MuteManager.isMute(MuteManager.getOfflineUUID(args[0]))) {
                             MuteManager.mute(MuteManager.getOfflineName(MuteManager.getOfflineUUID(args[0])), MuteManager.getOfflineUUID(args[0]), MuteManager.getIdSeconds(args[1]), MuteManager.getIdReason(args[1]), mutername, System.currentTimeMillis());
 
-                            sender.sendMessage();
+                            String sm = Main.sendermutemessage.replace("%player%", args[0]);
+                            sm = sm.replace("%grund%", MuteManager.getIdReason(args[1]));
+                            sender.sendMessage(sm);
 
                             String bm = Main.muteMessage;
                             bm = bm.replace("%player%", args[0]);
