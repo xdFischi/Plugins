@@ -7,6 +7,7 @@ import at.alex.BungeeSystem.Listeners.JoinListener;
 import at.alex.BungeeSystem.MySQL.MySQL;
 import at.alex.BungeeSystem.PunishManager.BanCommands.*;
 import at.alex.BungeeSystem.PunishManager.MuteCommands.*;
+import at.alex.BungeeSystem.PunishManager.PunishListener;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.plugin.Plugin;
@@ -51,6 +52,7 @@ public class Main extends Plugin {
         MySQL.createTable();
         startTimer();
         new JoinListener(this);
+        new PunishListener(this);
         getProxy().getPluginManager().registerCommand(this, new BroadCastCommand("broadcast"));
         getProxy().getPluginManager().registerCommand(this, new getOnlineTime("onlinetime"));
         getProxy().getPluginManager().registerCommand(this, new hubCommand("hub"));
